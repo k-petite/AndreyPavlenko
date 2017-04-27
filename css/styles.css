@@ -1,0 +1,675 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style-type:none;
+}
+
+li {
+  list-style-type:none;
+}
+
+h2 {
+  padding-top: 2em;
+  font-size: 1em;
+  font-weight:700;
+  text-transform: uppercase;
+ }
+
+h3 {
+  margin-top:20px;
+  font-weight:500;
+}
+
+h4 {
+font-size: .8em;
+font-weight: 400;
+margin: 20px 0 10px;
+opacity: .6;
+}
+
+h4 a{
+font-weight: 600;
+}
+
+p {
+  margin: 12px 0;
+  font-size: 1.1em;
+  font-weight:200;
+  line-height:1.35em;
+  opacity:.8;
+}
+
+img {
+  max-width: 100%;
+  margin: 10px auto 5px;
+}
+
+
+/* =================================
+          Layout containers
+==================================== */
+
+.container {
+  width:90%;
+  margin: 0 auto;
+}
+
+.main-wrapper .container{
+  padding-top: 2em;
+ }
+
+.main-header {
+  padding:1em 0;
+}
+
+
+.foot-wrapper {
+  padding-bottom:5px;
+}
+
+
+
+/* =================================
+          Top Navigation
+==================================== */
+
+
+.name {
+	font-size: 1.8em;
+  font-weight:700;
+  margin: 0 0 20px;
+}
+
+.main-nav li {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.name a,
+.main-nav a {
+	padding: 12px 12px;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+  font-size: 1em;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+.main-nav ul li {
+  padding:0;
+  text-align:center;
+}
+
+.main-nav ul {
+  padding:0;
+}
+
+
+/* =================================
+                Main
+==================================== */
+
+.main-title {
+  margin: 0 auto 40px;
+}
+
+
+/* --- General info --- */
+
+
+.profile-image {
+  width:70%;
+  margin:10px auto 10px;
+}
+
+
+.profile{
+  padding-bottom:30px;
+}
+
+
+
+/* experience section */
+
+.main-wrapper ul p {
+  font-size:1em;
+  font-weight:400;
+  width:95%;
+  margin:auto;
+  padding-bottom:20px;
+}
+
+
+#pics{
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
+
+/* --- education design section --- */
+
+.education p {
+  margin: 12px auto;
+  line-height: 2em;
+  width:80%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
+  color: #411a35;
+  border-top: 1px solid #db4711;
+  border-bottom: 1px solid #db4711;
+  }
+
+.education-image{
+  margin:10px auto 10px;
+  width:80%;
+}
+
+.education{
+  padding-bottom:30px;
+}
+
+/* =================================
+                Footer
+==================================== */
+
+.footer {
+  margin: 50px auto 10px;
+  padding:50px 0 0 0;
+}
+
+/* --- Contact section --- */
+
+.footer h2 {
+  padding-bottom:20px;
+}
+
+footer p {
+  font-weight:400;
+  opacity:.6;
+}
+
+.footer p:nth-of-type(1) {
+  margin-bottom:10px;
+}
+
+.footer p:nth-of-type(2),
+.footer p:nth-of-type(3){
+  margin-top:20px;
+}
+
+.footer p:nth-of-type(3){
+  margin-bottom:70px;
+}
+
+/* --- Footer navigation --- */
+
+  .footer {
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+    border-top: solid 1px #e1e5ed;
+    margin: 0 auto;
+    padding: 2em 0 0;
+  }
+
+   .footer-name,
+     footer .nav,
+     footer .nav li{
+     display:inline-block;
+  }
+
+   .footer-name a,
+   footer .nav a{
+     display:block;
+  }
+
+   .footer-name {
+    width:45%;
+    float:left;
+    text-align:left;
+    font-size:1em;
+    margin:0;
+  }
+
+  footer .nav {
+    float:right;
+    margin-top:0;
+    margin-bottom:0;
+  }
+
+  footer .nav li,
+  footer .nav li a {
+    padding-right: 0;
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-right:0;
+  }
+
+  .footer-nav a,
+   h2  {
+    font-size: 1em;
+    font-weight:700;
+    text-transform: uppercase;
+  }
+
+    footer .nav li,
+    .footer-nav ul{
+    padding: 0;
+  }
+
+
+/* =================================
+                Clearfix
+==================================== */
+
+  .cf:before,
+  .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+   }
+
+  .cf:after {
+    clear: both;
+  }
+
+
+/* =================================
+                Colors
+==================================== */
+
+body {
+  color:#494949;
+  background:#fafafa;
+}
+
+a{
+  color:#494949;
+}
+
+header .main-nav li {
+	background: #fff;
+}
+
+header .main-nav a:hover {
+		color: #6ac7c5;
+	}
+
+.main-wrapper {
+  background:white;
+}
+
+h4 a{
+color:#494949;
+}
+
+h4 a:hover {
+color:#e27cd4;
+}
+
+.footer-nav a:hover {
+		color: #6ac7c5;
+	}
+
+
+.footer-nav li:nth-of-type(1),
+.footer-nav li:nth-of-type(2),
+.footer-nav li:nth-of-type(3),
+.footer-nav li:nth-of-type(4){
+  display:none;
+} /* Hides extra nav links in mobile view */
+
+/* =================================
+                Media Queries
+==================================== */
+
+/* --- Tablet view --- */
+
+@media(min-width: 768px) {
+
+
+/* ===================
+     Top Navigation
+====================== */
+  .main-header {
+    padding-top:1em;
+  }
+
+ .name,
+ .main-nav ul li{
+    display:inline-block;
+    background: none;
+  }
+
+  .main-nav a{
+    display: block;
+    padding: 1em;
+  }
+
+  .name {
+    width:10em;
+    margin-bottom:0;
+    margin-top:1em;
+    padding: 0;
+  }
+
+/* ===================
+     General info
+====================== */
+  .profile .col {
+    float:right;
+    padding-right:1px;
+    padding-left:16px;
+
+  }
+
+  .profile .primary{
+    width:55%;
+    font-size: 1.5em;
+    text-align:left;
+    padding-right:1em;
+  }
+
+  .profile .secondary{
+    width:45%;
+    /*margin-left:-4px;*/
+  }
+
+/* ===================
+     experience
+====================== */
+
+  #pics {
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+
+  #pics li {
+    float:left;
+    width:48%;
+    margin:1%;
+    text-align:center;
+    margin-bottom:1.5em;
+  }
+
+  #pics li p {
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 1em;
+  }
+
+  #pics li:nth-child(3) {
+    clear: left;
+  }
+
+  #pics li:nth-child(5) {
+    clear: left;
+  }
+
+
+/* ===================
+   education section
+====================== */
+
+  .education .col{
+    float:left;
+  }
+
+
+   .education:nth-child(1){
+      font-size: 1.2em;
+      text-align:left;
+  }
+
+  .education .secondary{
+    width:55%;
+  }
+
+  .education .primary{
+    width:45%;
+    padding-left:1em;
+  }
+
+  .education p {
+    margin: 5% 0 2% -4px;
+    padding-left: 1em;
+  }
+
+  .education .primary {
+    vertical-align:middle;
+  }
+
+/* ===================
+        Footer
+====================== */
+
+  footer .container{
+    padding-left: 3em;
+    padding-right:3em;
+    letter-spacing:inherit;
+  }
+
+  .footer p {
+    width:70%;
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+
+
+/* --- Footer navigation --- */
+
+
+
+  .footer-nav li:nth-of-type(5){
+    display:none;
+  }
+
+
+  .footer-name {
+    width:25%;
+  }
+
+
+  .footer-nav li,
+  .footer-name {
+    font-weight:700;
+    opacity:0.8;
+    font-size:1em;
+    background:none;
+  }
+
+  .footer-nav li:nth-of-type(1),
+  .footer-nav li:nth-of-type(2),
+  .footer-nav li:nth-of-type(3),
+  .footer-nav li:nth-of-type(4){
+    text-align:right;
+    float:left;
+  }
+
+  .footer-nav ul li a,
+  .footer-name {
+    padding: 1rem;
+    margin:0;
+  }
+
+  footer .nav li{
+    padding-right: 0;
+    margin:0;
+  }
+
+  .footer-nav,
+  .footer-nav ul{
+    margin:0 auto;
+  }
+
+  .footer-nav{
+    width:100%;
+  }
+
+  .footer-nav li:nth-of-type(1),
+  .footer-nav li:nth-of-type(2),
+  .footer-nav li:nth-of-type(3),
+  .footer-nav li:nth-of-type(4){
+    display:initial;
+  } /* Shows extra nav links in mobile view */
+
+  h4 {
+  margin: 1px 0 10px;
+  }
+}
+/* --- Desktop view --- */
+
+@media(min-width: 1024px) {
+
+  .container {
+    width:85%;
+    margin:0 auto;
+  }
+
+  h2 {
+    font-size: 1.25em;
+  }
+
+/* ===================
+     Top Navigation
+====================== */
+
+   .name,
+   .nav,
+   .nav li {
+    display:inline-block;
+  }
+
+
+   .main-nav {
+    margin-top:1.5em;
+  }
+
+   .main-nav .nav a {
+    display:block;
+  }
+
+
+  .main-header .name {
+    width:30%;
+    float:left;
+    text-align:left;
+    font-size:1.7em;
+    padding:1rem;
+    margin:0;
+  }
+
+  .main-header .nav {
+    float:right;
+    margin-top:0;
+    margin-bottom:0;
+  }
+
+  .main-header .nav li {
+    padding-right: 0;
+    margin-right:0;
+  }
+
+   .main-header .nav li a {
+    padding: 1rem;
+    font-size:1.2em;
+   }
+
+
+/* ===================
+     General info
+====================== */
+
+  .profile p {
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+
+  .primary p {
+    padding-left: 16px;
+    margin: 0 auto;
+  }
+
+
+/* ===================
+    Protfolio section
+====================== */
+
+  .main-wrapper .container {
+    width:90%;
+  }
+
+  .main-wrapper {
+    background-color: rgba(106, 199, 197, 0.5);
+  }
+
+  #pics li {
+    width:31.33%;
+    margin:1%;
+  }
+
+  #pics li:nth-child(3) {
+      clear: none;
+  }
+
+  #pics li:nth-child(5) {
+    clear: none;
+  }
+
+  #pics li:nth-child(4) {
+    clear: left;
+  }
+
+  h3 {
+    margin-bottom:0;
+  }
+
+  .main-wrapper {
+    margin: 0 2em;
+  }
+
+/* ===================
+   education section
+====================== */
+
+  .education p{
+    font-size: 1.5em;
+  }
+
+/* ===================
+        Footer
+====================== */
+
+
+  .footer-name,
+  .footer-nav ul li a {
+    font-size: 1.15em;
+  }
+
+  .footer p {
+    font-size: 1.25em;
+  }
+}
