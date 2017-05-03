@@ -32,8 +32,12 @@
      <!-- General info -->
 
       <div class="container profile cf">
-        <img src="images/profile.png" alt="Drawing of Kat Patite" class="profile-image col secondary">
-        <p class="col primary">Head of Oncology Center of combined methods of treatment, oncologist. <br><br> Member of the European Society for Surgical Oncology (ESSO). <br><br>Saint-Petersburg, Russia. </p>
+        <div class="col secondary">
+          <img src="images/profile.png" alt="Drawing of Kat Patite" class="profile-image">
+        </div>
+        <div class="col primary">
+          <p>Head of Oncology Center of combined methods of treatment, oncologist. <br><br> Member of the European Society for Surgical Oncology (ESSO). <br><br>Saint-Petersburg, Russia. </p>
+        </div>
       </div> <!--main .container-->
     </div> <!-- .grey-wrapper-->
 
@@ -44,9 +48,46 @@
 
           <!-- experience section -->
 
-          <h2 class="main-title" id="experience">experience</h2>
+          <h2 class="main-title" id="experience">EXPERIENCE</h2>
 
-          <ul id="pics" class="cf">
+          <div class='experience'>
+            <div class="flexcol">
+              <h3>Clinical trials</h3>
+                  <ul>
+                    <li>Colorectal Cancer 20050181, phase III <br> 2006 – 2009 (subinvestigator)</li>
+
+                    <li>Colorectal Cancer 20060447, phase IIb <br> 2009 – 2012 (coordinator)</li>
+
+                    <li>Colorectal Cancer 20060579, phase IIb <br> 2009 – 2012 (coordinator)</li>
+
+                    <li>Colorectal Cancer ACO-002, phase IIb <br> 2010 - present day (coordinator)</li>
+
+                    <li>Pancreatic cancer 04-22, phase II <br> 2012 - present day (subinvestigator)</li>
+
+                    <li>Melanoma BRF115532, phase III <br> 2013 - present day (subinvestigator)</li>
+                  </ul>
+
+            </div>
+
+            <div class="flexcol" >
+              <h3>Post Graduate Positions</h3>
+
+              <ul>
+
+                <li>Surgeon Military Hospital, Vladikavkaz, Russia 2002 – 2003</li>
+
+                <li>Surgeon Military Hospital, Krasnodar, Russia 2003 – 2004</li>
+
+                <li>Surgeon Medico-military Academy, Saint-Petersburg, Russia 2005 – 2006</li>
+
+                <li>Surgeon-oncologist Leningrad Regional Oncology Center 2008 – 2016</li>
+
+                <li>Chief of oncological department S-Petersburg State University Clinic – 2016 - present day</li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- <ul id="pics" class="cf">
           <li><img src="images/portfolio-1.png" alt="Drawing of portfolio-1">
           <h3>Marketing Page</h3>
           <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p></li>
@@ -70,15 +111,57 @@
           <li><img src="images/portfolio-6.png" alt="Drawing of portfolio-6">
           <h3>Calculator</h3>
           <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p></li>
-          </ul>
+          </ul> -->
         </div>
 
         <!-- education section -->
 
         <div class="container education cf">
-        <h2 class="main-title" id="education">education DESIGN</h2>
-          <img src="images/responsive.png" alt="Drawing Responsive web-design example" class="education-image col secondary">
-        <p class="col primary">All the web-sites have responsive design. This ensures the sites will be well-organized on devices with any screen size.</p>
+        <h2 class="main-title" id="education">EDUCATION</h2>
+          <!-- <img src="images/responsive.png" alt="Drawing Responsive web-design example" class="education-image col secondary"> -->
+          <div class='details'>
+
+          <ul class="flexcol ed-1">
+            <h3>General</h3>
+
+            <li>Medicine - MD, 1995 - 2001 <br>Pavlov First Saint Petersburg State Medical University, St.Petersburg</li>
+            <li>Surgery (intership) - Surgeon, 2001 - 2002<br>Pavlov First Saint Petersburg State Medical University, St.Petersburg </li>
+            <li>Surgery (residency) - Surgeon, 2005 - 2007<br>Pavlov First Saint Petersburg State Medical University, St.Petersburg</li>
+            <li>Oncology (residency) - Oncologist, 2010 - 2012<br>Pavlov First Saint Petersburg State Medical University, St.Petersburg</li>
+          </ul>
+
+            <div class="flexcol ed-2">
+              <h3> Details of Medical License, Certification</h3>
+              <ul>
+                <li>MD 2001 Diploma БВС 0120988</li>
+
+                <li>Surgery (intership) 2002 Diploma Б № 000243</li>
+
+                <li>Surgery (residency) 2007 Diploma БВС 0120988</li>
+
+                <li>Oncology (residency) 2012 Diploma БВС 0120988</li>
+              </ul>
+            </div>
+
+            <div class="flexcol ed-2">
+              <h3> Examinations for Speciality</h3>
+              <ul>
+                <li>MD, 2001</li>
+
+                <li>Surgeon, 2002, Diploma Б № 000243</li>
+
+                <li>Surgeon, 2007, Diploma БВС 0120988</li>
+
+                <li>Oncologist, 2012, Diploma БВС 0120988</li>
+
+                <li>Surgeon, 2013, Diploma БВС 0120988</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+
         </div> <!-- .white-wrapper-->
         </div>
 
@@ -87,10 +170,10 @@
       <footer class="container foot-wrapper" id="contact">
           <div class="footer">
             <h2 class="main-title">CONTACT</h2>
-            <p>If your're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            <p>For Clinical Trial Proposals please reach me via details below: </p>
 
-            <p>Phone  <b> &nbsp; +1(111)233-22-33</b></p> <!-- bold style-->
-            <p>Email  <b> &nbsp; m@murmur.com</b></p> <!-- bold style-->
+            <p>Phone  <b> &nbsp; <a href="callto:+7(921)5824580">+7 (921) 582 45 80</a></b></p> <!-- bold style-->
+            <p>Email  <b> &nbsp; <a href="mailto:andrewpavlenko@yandex.ru">andrewpavlenko@yandex.ru</a></b></p> <!-- bold style-->
 
             <!-- Footer navigation -->
 
@@ -98,7 +181,7 @@
               <h1 class="footer-name">Andrey Pavlenko</h1>
               <ul class="nav">
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#experience">experience</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
                 <li><a href="#education">EDUCATION</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 <li><a href="#">BACK TO TOP</a></li>

@@ -30,11 +30,11 @@ h2 {
   font-weight:700;
   text-transform: uppercase;
  }
-
+/*
 h3 {
   margin-top:20px;
   font-weight:500;
-}
+}*/
 
 h4 {
 font-size: .8em;
@@ -56,10 +56,27 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 300px;
   margin: 10px auto 5px;
 }
 
+.education ul,
+.experience ul {
+  padding-left: 0;
+}
+
+/*.education h3,*/
+/*.experience */
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.education li,
+.experience li {
+  padding: 1em;
+}
 
 /* =================================
           Layout containers
@@ -166,6 +183,9 @@ img {
 
 }
 
+/*.experience div:first-of-type {
+  margin-bottom: 2em;
+}*/
 
 
 /* --- education design section --- */
@@ -189,6 +209,15 @@ img {
 .education{
   padding-bottom:30px;
 }
+
+
+.experience *,
+.details * {
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
 
 /* =================================
                 Footer
@@ -381,7 +410,7 @@ color:#e27cd4;
   .profile .col {
     float:right;
     padding-right:1px;
-    padding-left:16px;
+    /*padding-left:16px;*/
 
   }
 
@@ -461,6 +490,34 @@ color:#e27cd4;
   .education .primary {
     vertical-align:middle;
   }
+
+  .experience {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    flex-wrap:wrap;
+  }
+
+  .flexcol{
+    margin: 10px;
+    flex: 1;
+  }
+  .details{
+    -webkit-flex-wrap: wrap;
+  }
+
+
+
+.ed-1 {
+    flex: 1.5;
+  }
+
 
 /* ===================
         Footer
@@ -604,8 +661,9 @@ color:#e27cd4;
 ====================== */
 
   .profile p {
-    font-size: 1.3em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
+    opacity: .6;
   }
 
   .primary p {
